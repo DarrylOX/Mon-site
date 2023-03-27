@@ -3,6 +3,7 @@
     height: 100vh;
     width: 100vw;
 }
+
 .panel{
     height: 100%;
     flex:1;
@@ -10,20 +11,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
    
 }
 .panel:hover{
-    flex:4
+    flex:3
 }
 
-.panel>.titreJeu:hover{
-    opacity: 100%;
+.navbar {
+    background-color: rgba(37, 35, 39, 0.842);
+    color: aliceblue;
 }
 
 .hogwarts{
@@ -44,10 +40,12 @@
 
 }
 
-.titreJeu{
-    color: white;
-    font-size: 4em;
-    font-family: 'Roboto';
-    opacity: 0%;
-    transition: opacity 1s;
+
+
+
+.corps{
+    background-color: rgba(37, 35, 39, 0.842);
+    height: 50vh;
+    width: auto;
+    color: aliceblue;
 }
