@@ -1,3 +1,53 @@
-.violet {
-    color: blueviolet;
+.panels{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.panel{
+    height: 100%;
+    flex:1;
+    transition: flex 1s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+   
+}
+.panel:hover{
+    flex:4
+}
+
+.panel>.titreJeu:hover{
+    opacity: 100%;
+}
+
+.hogwarts{
+    background-image: url("../img/1.jpeg");
+}
+
+.elden{
+    background-image: url("../img/2.jpeg");
+  
+
+}
+.lostark{
+    background-image: url("../img/3.jpeg");
+
+}
+.gta{
+    background-image: url("../img/4.jpeg");
+
+}
+
+.titreJeu{
+    color: white;
+    font-size: 4em;
+    font-family: 'Roboto';
+    opacity: 0%;
+    transition: opacity 1s;
 }
