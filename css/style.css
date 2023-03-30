@@ -1,25 +1,30 @@
 .panels{
     display: flex;
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
+    display: flex;
 }
 
 .panel{
     height: 100%;
-    flex:1;
-    transition: flex 1s;
+    flex:3.5;
+    transition: flex 0.75s;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
    
 }
-.panel:hover{
-    flex:3
-}
 
+.navbar-brand{
+    font-size: 30px;
+}
 .navbar {
-    background-color: rgba(37, 35, 39, 0.842);
-    color: aliceblue;
+    padding: 30px;
+    background-color: rgb(223, 205, 142);
 }
 
 .hogwarts{
@@ -40,12 +45,58 @@
 
 }
 
-
-
-
 .corps{
     background-color: rgba(37, 35, 39, 0.842);
-    height: 50vh;
+    height: 20vh;
     width: auto;
     color: aliceblue;
 }
+
+.footer-clean {
+  padding:40px 0;
+  justify-content: space-between;
+  background-color:rgb(223, 205, 142);
+  color: rgb(0, 0, 0);
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:15px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.titreJeu{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 6em;
+    opacity: 0%;
+    transition: opacity 1s;
+    background-color: rgb(184, 131, 62);
+}
+.panel:hover{
+    flex:5;
+}
+.panel:hover>.titreJeu{
+    opacity: 100%;
+}
+
