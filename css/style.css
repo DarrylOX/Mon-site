@@ -1,3 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(35, 34, 33);
+   
+  }
+
+
+
 .panels{
     display: flex;
     height: 70vh;
@@ -21,10 +30,13 @@
 
 .navbar-brand{
     font-size: 30px;
+    
 }
+
 .navbar {
-    padding: 30px;
+    padding: 20px;
     background-color: rgb(223, 205, 142);
+   
 }
 
 .hogwarts{
@@ -46,7 +58,7 @@
 }
 
 .corps{
-    background-color: rgba(37, 35, 39, 0.842);
+    background-color: rgba(35, 34, 33);
     height: 20vh;
     width: auto;
     color: aliceblue;
@@ -97,6 +109,28 @@
     flex:5;
 }
 .panel:hover>.titreJeu{
-    opacity: 100%;
+    opacity: 0%;
 }
 
+.videoback{
+    background-color: rgb(35, 34, 33);
+}
+
+.container-lorem{
+    padding: 3%;
+    background-color: rgb(223, 205, 142);
+    font-size: 178%;
+    text-align: center;
+    margin: 10%;
+    border-radius: 50px;
+    opacity: 0.98;
+  }
+
+ 
+
+  
+
+
+  
+  
+  
